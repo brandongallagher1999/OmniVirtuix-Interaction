@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/Undergrad Lab/Desktop/Omni SDK/Pickup Objects Omni/Assets/scene.unity
+  isLoaded: 1
+  isActive: 1
