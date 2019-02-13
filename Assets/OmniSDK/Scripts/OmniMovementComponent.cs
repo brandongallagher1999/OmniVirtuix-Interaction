@@ -352,7 +352,7 @@ public class OmniMovementComponent : MonoBehaviour {
                 omniY = 0f;
             }
             //@TODO - may need to change this for fully coupled mode...
-            omniY *= -1f;
+            omniY *= 1f;
             hidInput = new Vector2(omniX, omniY);
 
 

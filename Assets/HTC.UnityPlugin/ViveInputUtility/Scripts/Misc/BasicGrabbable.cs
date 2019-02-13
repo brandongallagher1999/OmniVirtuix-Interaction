@@ -42,7 +42,7 @@ namespace HTC.UnityPlugin.Vive
 
             public static void Release(Grabber grabber)
             {
-
+                
                 grabber.eventData = null;
                 m_pool.Release(grabber);
             }
@@ -105,6 +105,7 @@ namespace HTC.UnityPlugin.Vive
 
         public UnityEventGrabbable onDrop {
            
+            
 
             get { return m_onDrop; }
 
